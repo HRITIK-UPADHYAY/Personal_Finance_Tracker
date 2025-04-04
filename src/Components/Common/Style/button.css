@@ -2,7 +2,7 @@ button {
     width: 100%;
     background-color: var(--blue);
     border:  0.1rem solid var(--blue);
-    font-size: 1.2rem;
+    font-size: clamp(0.7rem, 3vw, 1.2rem);;
     color: var(--white);
     border-radius: 0.5rem;
     padding: clamp(0.5rem, 1vw, 1rem) clamp(1rem, 2vw, 1.5rem);
@@ -13,10 +13,15 @@ button {
 .outlined-btn {
     background-color: var(--white);
     border:  0.12rem solid var(--blue);
-    font-size: 1.2rem;
+    font-size: clamp(0.7rem, 3vw, 1.2rem);
     color: var(--blue);
     border-radius: 0.5rem;
-    padding: clamp(0.5rem, 1vw, 1rem) clamp(1rem, 2vw, 1.5rem);
+    padding: clamp(0.3rem, 1vw, 1rem) clamp(1rem, 2vw, 1.5rem);
     font-weight: 400;
     cursor: pointer;
+}
+
+.outlined-btn:hover {
+    background-color: var(--blue);
+    color: var(--white);
 }

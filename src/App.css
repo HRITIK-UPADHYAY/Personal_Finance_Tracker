@@ -10,3 +10,7 @@
     --black: #000000;
     --grey: rgba(164, 160, 160, 0.534);
 }
+
+.Toastify__close-button  {
+    text-align: right;
+  }

@@ -1,4 +1,4 @@
-.signup {
+.signupOrSignIn {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
 }
 
 .signup-container {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,24 @@
 }
 
 .signup-container > p {
-    font-size: Clamp(0.2rem, 3vw, 1.8rem);
+    font-size: Clamp(0.3rem, 3vw, 1.8rem);
+    font-weight: 500;
+}
+
+.signin-container {
+    width: 60%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: clamp(1rem, 3vw, 2rem);
+    border-radius: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.signin-container > p {
+    font-size: Clamp(0.3rem, 3vw, 1.8rem);
     font-weight: 500;
 }
 
@@ -50,18 +67,19 @@
 }
 
 .input-data label {
-    font-size: clamp(0.5rem, 3vw, 1.2rem);
+    font-size: clamp(0.2rem, 3vw, 1.2rem);
     font-weight: 400;
 }
 
 .input-data input {
     width: 100%;
+    text-transform: capitalize;
     padding: 1rem 0rem 0rem 0rem;
     border: none;
     border-bottom: 1px solid var(--grey);
     text-decoration: none;
     outline: none;
-    font-size: clamp(0.5rem, 3vw, 1.2rem);
+    font-size: clamp(0.2rem, 3vw, 1.2rem);
 }
 
 .input-data input::placeholder {
@@ -78,6 +96,6 @@
 
 .btn p {
     text-align: center;
-    font-size: clamp(0.5rem, 3vw, 1.2rem);
-    font-weight: 500;
+    font-size: clamp(0.2rem, 3vw, 1.2rem);
+    font-weight: 400;
 }

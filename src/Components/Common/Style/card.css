@@ -1,0 +1,21 @@
+.card {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: clamp(0.5rem, 3vw, 1.5rem);
+    border-radius: 0.5rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.card h3 {
+    font-weight: 600;
+    font-size: clamp(0.5rem, 3vw, 1.2rem);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--grey);
+}
+
+.card p {
+    font-size: clamp(0.5rem, 3vw, 1.2rem);
+}

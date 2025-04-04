@@ -1,0 +1,25 @@
+.modal {    
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: clamp(1rem, 3vw, 2rem);
+    border-radius: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background-color: var(--white);
+}
+
+.modal .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h4 {
+    font-size: clamp(0.8rem, 3vw, 1.4rem);
+}
+
+sup {
+    color: red;
+}

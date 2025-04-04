@@ -10,3 +10,12 @@
     position: sticky;
     z-index: 1000;
 }
+
+.header p {
+    opacity: 0.8;
+}
+
+p:hover {
+    opacity: 1;
+    transition: all 0.3s;
+}

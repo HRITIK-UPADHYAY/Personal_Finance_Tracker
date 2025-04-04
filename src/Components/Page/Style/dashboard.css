@@ -1,0 +1,27 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.body-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.background-blur {
+    filter: blur(0.1rem);
+    pointer-events: none;
+}
+
+.show-modal {
+    width: 100%;
+    position: fixed;
+    top: clamp(7rem, 10vw, 10rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

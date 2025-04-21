@@ -1,0 +1,9 @@
+.options {
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+    font-size: clamp(0.5rem, 2vw, 1rem);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

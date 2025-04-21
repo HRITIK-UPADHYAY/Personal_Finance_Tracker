@@ -1,4 +1,4 @@
-button {
+.button-comp  button {
     width: 100%;
     background-color: var(--blue);
     border:  0.1rem solid var(--blue);
@@ -10,7 +10,7 @@ button {
     cursor: pointer;
 }
 
-.outlined-btn {
+.button-comp .outlined-btn {
     background-color: var(--white);
     border:  0.12rem solid var(--blue);
     font-size: clamp(0.7rem, 3vw, 1.2rem);

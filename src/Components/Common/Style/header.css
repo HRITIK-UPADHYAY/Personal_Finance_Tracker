@@ -19,3 +19,18 @@ p:hover {
     opacity: 1;
     transition: all 0.3s;
 }
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+}
+

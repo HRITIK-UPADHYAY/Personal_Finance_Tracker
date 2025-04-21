@@ -17,7 +17,7 @@
 }
 
 .heading h4 {
-    font-size: clamp(0.8rem, 3vw, 1.4rem);
+    font-size: clamp(0.6em, 10vw, 1.4rem);
 }
 
 sup {

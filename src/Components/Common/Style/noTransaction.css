@@ -1,0 +1,16 @@
+.image-for-no-data  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-for-no-data > img {
+    width: 40%;
+    height: 50vh;
+}
+
+.image-for-no-data > h2 {
+    color: var(--grey);
+}
